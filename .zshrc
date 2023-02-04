@@ -1,4 +1,3 @@
-
 export ZSH=# Path to your oh-my-zsh installation.
 
 ZSH_THEME="bullet-train"
@@ -13,8 +12,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Autoswitch to node version defined in `.nvmrc`, offer to install missing versions.
-#
-# Place this after nvm initialization in your `.zshrc` file in your home folder.
 #
 # Prerequisites:
 #   - nvm
@@ -50,9 +47,6 @@ add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
 # END nvm auto initializationexport 
-
-PATH="${HOME}/.pyenv/shims:${PATH}"
-
 
 # Bullet-train options
 BULLETTRAIN_PROMPT_ORDER=(
